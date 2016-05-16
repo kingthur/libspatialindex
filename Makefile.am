@@ -1,5 +1,5 @@
 ## Makefile.am -- Process this file with automake to produce Makefile.in
-SUBDIRS = src . test include
+SUBDIRS = src . include
 
 ACLOCAL_AMFLAGS= -I m4
 lib_LTLIBRARIES = libspatialindex.la libspatialindex_c.la
@@ -25,14 +25,4 @@ EXTRA_DIST = INSTALL.WIN \
              spatialindex.sln \
              spatialindex-vc/spatialindex.vcproj \
              CMakeLists.txt \
-             src/CMakeLists.txt \
-             test/CMakeLists.txt \
-             test/mvrtree/test1/run \
-             test/mvrtree/test2/run \
-             test/rtree/test1/run \
-             test/rtree/test2/run \
-             test/rtree/test3/run \
-             test/rtree/test4/run \
-             test/tprtree/test1/run \
-             test/tprtree/test2/run \
-             test/gtest
+             src/CMakeLists.txt
